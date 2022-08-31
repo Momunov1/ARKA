@@ -1,0 +1,493 @@
+@media(max-width: 1440px) {
+.container{
+    width: 90%;
+}
+
+}
+@media(max-width: 1200px) {
+
+}
+@media(max-width: 1024px) {
+    #header .header--general .header--general__block .menu {
+        margin: 0 50px;
+    }
+    #hero .hero--general .hero--general__block .hero h1 {
+        width: 400px;
+    }
+    #hero .hero--general .hero--general__block {
+        margin: 0 1px;
+    }
+    #hero .hero--general .hero--general__block .hero {
+        margin: 80px 10px;
+        animation: ani2 2s alternate;
+    }
+    #shop .shop--general .shop--general__block .shop .shop2 {
+        margin: 0 50px;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 .custom-img img {
+        width: 298px;
+        height: 202px;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 {
+        width: 350px;
+        height: 332px;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 {
+        width: 280px;
+        height: 322px;
+    }
+    #product .product--general .product--general__block .custom-content {
+        display: flex;
+        margin-left: 10px;
+    }
+    #product .product--general .product--general__block .need {
+
+        margin: 60px 250px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img {
+        display: flex;
+        width: 194px;
+        height: 194px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-text h1 {
+        width: 400px;
+        margin-left: 240px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-text2 {
+        display: flex;
+        margin-left: 200px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 {
+        margin-left: 200px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team .team-text h1 {
+        width: 250px;
+        font-size: 20px;
+        margin-left: -60px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 {
+        margin: 50px 50px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 {
+        display: flex;
+        margin-left:  -92px;
+        height: 192px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 {
+        margin: 50px 100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block {
+        margin-left: 10px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer2 {
+        margin: 5px 30px;
+    }
+    #footer .footer--genral .footer--general__block .footer {
+        display: flex;
+        text-align: start;
+        justify-content: space-between;
+        margin: 0 30px;
+    }
+
+}
+@media(max-width: 992px)  {
+    #love .love--general .love--general__block .love .team-general {
+        height: 1106px;
+    }
+    #footer .footer--genral .footer--general__block .footer {
+        margin: 0 5px;
+    }
+}
+@media(max-width: 768px){
+    #header .header--general .header--general__block .menu {
+        margin: 0 50px;
+        display: none;
+    }
+    #header .header--general .header--general__block .menu2 {
+        display: flex;
+        margin-left: 400px;
+    }
+    #header .header--general .header--general__block .menu__btn {
+        top: 10px;
+        right: 30px;
+    }
+    #hero .hero--general .hero--general__block .hero h1 {
+        width: 350px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 56px;
+        color: #011F3A;
+        padding-bottom: 35px;
+    }
+    #hero .hero--general .hero--general__block .hero h1 {
+        width: 280px;
+        font-size: 30px;
+
+    }
+    #hero .hero--general .hero--general__block .hero-img {
+        margin-left: -50px;
+    }
+    #shop .shop--general .shop--general__block .shop .shop1 {
+        margin: 0 0;
+    }
+    #product .product--general .product--general__block .product .product1 h1 {
+        font-size: 28px;
+    }
+    #product .product--general .product--general__block .product .product1 button {
+        font-size: 15px;
+    }
+    #product .product--general .product--general__block .custom-content {
+        display: flex;
+        margin-left: -40px;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 {
+        width: 245px;
+        height: 320px;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        color: #777777;
+        width: 250px;
+    }
+    #product .product--general .product--general__block .need {
+        margin: 40px 200px;
+    }
+    #product .product--general .product--general__block .order .order-block {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+    #product .product--general .product--general__block .order .order-block .design p {
+        margin-left: 250px;
+    }
+    #product .product--general .product--general__block .order .order-block .design .design-img {
+        color: #011F3A;
+        margin-left: 200px;
+    }
+    #find .find--general .find--general__block .find h1 {
+        font-size: 24px;
+        margin-left: 153px;
+    }
+    #find .find--general .find--general__block .find p {
+        width: 280px;
+    }
+    #find .find--general .find--general__block .find h1 {
+        font-size: 24px;
+        margin-left: 150px;
+    }
+    #find .find--general .find--general__block .find p {
+        width: 280px;
+        margin-left: 105px;
+    }
+    #find .find--general .find--general__block .find img {
+        margin-left: 145px;
+    }
+    #find .find--general .find--general__block .find .find--btn button {
+        margin-left: 147px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img {
+        display: flex;
+        width: 140px;
+        height: 140px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text h1 {
+        margin-left: 150px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 {
+        margin-left: 150px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 {
+        display: flex;
+        margin-left: -92px;
+        height: 140px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text2 h1 {
+        width: 420px;
+        font-size: 20px;
+        margin-left: -90px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 {
+        display: flex;
+        margin-left: -100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 {
+        margin-left: -27px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text h1 {
+
+        font-size: 20px;
+
+    }
+    #footer .footer--genral .footer--general__block .footer {
+        margin-left: -30px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer1 {
+        margin: 5px 10px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer2 {
+        margin: 5px 10px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer3 {
+        margin: 5px 10px;
+    }
+}
+@media(max-width: 576px)  {
+    #header .header--general .header--general__block .menu2 {
+        display: flex;
+        margin-left: 200px;
+    }
+    #hero .hero--general .hero--general__block .hero h1 {
+        width: 200px;
+        font-size: 20px;
+    }
+    #hero .hero--general .hero--general__block .hero p {
+        width: 200px;
+        font-size: 15px;
+    }
+    #hero .hero--general .hero--general__block .hero button {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+    #hero .hero--general .hero--general__block .hero {
+        margin: 80px 0;
+    }
+    #hero .hero--general .hero--general__block .hero-img img {
+        width: 304px;
+        height: 404px;
+        margin-left: -200px;
+    }
+    #shop .shop--general .shop--general__block .shop {
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    #product .product--general .product--general__block .custom-content {
+        margin-left: 140px;
+        flex-direction: column;
+    }
+    #product .product--general .product--general__block .need {
+        margin: 20px 100px;
+    }
+    #product .product--general .product--general__block .order h1 {
+        font-size: 30px;
+    }
+    #product .product--general .product--general__block .order .order-block .design .design-img {
+        margin-left: 100px;
+    }
+    #product .product--general .product--general__block .order h1 {
+        padding-top: 5px;
+    }
+    #product .product--general .product--general__block .order .order-block .design p {
+        margin-left: 150px;
+    }
+    #arka .arka--general .arka--general__block .arka img {
+        padding-bottom: 55px;
+        margin-left: 133px;
+    }
+    #arka .arka--general .arka--general__block {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #arka .arka--general .arka--general__block .arka p {
+        margin-left: 150px;
+    }
+    #find .find--general .find--general__block .line {
+        display: none;
+    }
+    #find .find--general .find--general__block {
+        flex-direction: column;
+    }
+    #find .find--general .find--general__block .find h1 {
+        margin-left: 100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block {
+        flex-direction: column;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img {
+        width: 540px;
+    }
+    #love .love--general .love--general__block .love .team-general {
+        height: 1506px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 {
+        flex-direction: column;
+
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 {
+        margin-left: -327px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text2 h1 {
+        width: 420px;
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 {
+        display: flex;
+        margin-left: -5px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer2 {
+        margin: 5px 5px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer1 {
+        margin: 5px 5px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer3 {
+        margin: 5px 5px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer4 input {
+        color: #011F3A;
+        background: #FFFFFF;
+        border-radius: 34px;
+        width: 150px;
+        height: 36px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer4 {
+        margin: 5px 5px;
+        flex-direction: column;
+    }
+
+
+}
+@media(max-width: 451px)  {
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img {
+        display: flex;
+        width: 140px;
+        height: 100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img img {
+        width: 154px;
+        height: 124px;
+        margin-left: 100px;
+    }
+}
+@media(max-width: 400px)  {
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text h1 {
+        width: 200px;
+        font-size: 24px;
+        padding-top: 50px;
+    }
+    #hero .hero--general .hero--general__block .hero-img img {
+        width: 204px;
+        height: 204px;
+        margin-left: -200px;
+    }
+    #hero .hero--general .hero--general__block .hero h1 {
+        width: 150px;
+        font-size: 20px;
+    }
+    #shop .shop--general .shop--general__block .shop {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    #product .product--general .product--general__block .product .product1 h1 {
+        font-size: 20px;
+    }
+    #product .product--general .product--general__block .product .product1 {
+        flex-direction: column;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 {
+        width: 245px;
+        margin-left: -80px;
+        height: 320px;
+    }
+    #product .product--general .product--general__block .custom-content .custom .custom1 .custom-img img {
+        margin-left: -35px;
+    }
+    #product .product--general .product--general__block .order .order-block .design .design-img {
+        margin-left: 20px;
+    }
+    #product .product--general .product--general__block .order .order-block .design p {
+        margin-left: 70px;
+    }
+    #arka .arka--general .arka--general__block .arka img {
+        padding-bottom: 55px;
+        margin-left: 50px;
+    }
+    #arka .arka--general .arka--general__block .arka p {
+        margin-left: 50px;
+    }
+    #love .love--general .love--general__block .love .love--title {
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 {
+        margin-left: 100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img img {
+        width: 154px;
+        height: 124px;
+        margin-left: 10px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text2 h1 {
+        width: 300px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 img {
+        width: 154px;
+        height: 154px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 {
+        margin-left: -27px;
+    }
+    #love .love--general .love--general__block .love .team-general {
+        height: 1806px;
+    }
+    #footer .footer--genral .footer--general__block .footer {
+        flex-direction: column;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer1 {
+        margin: 5px 50px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer2 {
+        margin: 5px 50px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer3 {
+        margin: 5px 50px;
+    }
+    #footer .footer--genral .footer--general__block .footer .footer4 {
+        margin: 5px 50px;
+    }
+}
+@media(max-width: 376px)  {
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 .team-text32 {
+        margin: 0 5px;
+    }
+}
+@media(max-width: 320px)  {
+    #footer .footer--genral .footer--general__block .footer .footer-img img {
+        width: 85px;
+        height: 24px;
+        margin-left: 50px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team-img img {
+        width: 154px;
+        height: 124px;
+        margin-left: -10px;
+    }
+    #love .love--general .love--general__block .love .love--title {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 .team-text3 {
+        margin: 0 5px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 button {
+        width: 100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text2 h1 {
+        width: 280px;
+        margin-left: 30px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 button {
+        width: 100px;
+    }
+    #love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 img {
+        width: 120px;
+        height: 120px;
+    }
+
+}

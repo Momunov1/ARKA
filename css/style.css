@@ -1,0 +1,807 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateY(-1400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes ani2 {
+  0% {
+    transform: translateX(-1400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes ani3 {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes shop {
+  0% {
+    transform: translateY(1400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .header--general {
+  animation: ani 2s alternate;
+}
+#header .header--general .header--general__block {
+  display: flex;
+  text-align: center;
+  margin: 10px 20px;
+}
+#header .header--general .header--general__block #menu__toggle {
+  opacity: 0;
+}
+#header .header--general .header--general__block #menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#header .header--general .header--general__block #menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#header .header--general .header--general__block #menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#header .header--general .header--general__block #menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+}
+#header .header--general .header--general__block .menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+#header .header--general .header--general__block .menu__btn > span,
+#header .header--general .header--general__block .menu__btn > span::before,
+#header .header--general .header--general__block .menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: 0.25s;
+}
+#header .header--general .header--general__block .menu__btn > span::before {
+  content: "";
+  top: -8px;
+}
+#header .header--general .header--general__block .menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+#header .header--general .header--general__block .menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.25s;
+}
+#header .header--general .header--general__block .menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: 0.25s;
+}
+#header .header--general .header--general__block .menu__item:hover {
+  background-color: #CFD8DC;
+}
+#header .header--general .header--general__block .menu {
+  margin: 0 250px;
+  display: flex;
+  text-align: center;
+}
+#header .header--general .header--general__block .menu a {
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #011F3A;
+}
+#header .header--general .header--general__block .menu a:hover {
+  color: red;
+}
+#header .header--general .header--general__block .menu2 {
+  display: flex;
+}
+#header .header--general .header--general__block .menu2 a {
+  margin: 0 26px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #011F3A;
+}
+#header .header--general .header--general__block .menu2 a:hover {
+  color: red;
+}
+#header .header--general .header--general__block .menu2 .icon a {
+  color: #000;
+}
+#header .header--general .header--general__block .menu2 .icon a:hover {
+  color: red;
+}
+
+#hero {
+  background: #F2AE4D;
+}
+#hero .hero--general .hero--general__block {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+#hero .hero--general .hero--general__block .hero {
+  margin: 80px 100px;
+  animation: ani2 2s alternate;
+}
+#hero .hero--general .hero--general__block .hero h1 {
+  width: 450px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #011F3A;
+  padding-bottom: 35px;
+}
+#hero .hero--general .hero--general__block .hero p {
+  width: 280px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #011F3A;
+  padding-bottom: 35px;
+  transition: 0.4s;
+}
+#hero .hero--general .hero--general__block .hero button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.4s;
+}
+#hero .hero--general .hero--general__block .hero button:hover {
+  transform: scale(1.1);
+}
+#hero .hero--general .hero--general__block .hero-img {
+  animation: ani3 2s alternate;
+}
+#hero .hero--general .hero--general__block .hero-img img {
+  width: 504px;
+  height: 504px;
+}
+
+#shop .shop--general .shop--general__block {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+#shop .shop--general .shop--general__block .shop {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  animation: shop 2s alternate;
+}
+#shop .shop--general .shop--general__block .shop .shop1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px;
+}
+#shop .shop--general .shop--general__block .shop .shop1 h1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #A1A1A1;
+}
+#shop .shop--general .shop--general__block .shop .shop2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 350px;
+}
+#shop .shop--general .shop--general__block .shop .shop2 h1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #A1A1A1;
+}
+#shop .shop--general .shop--general__block .shop .shop3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+}
+#shop .shop--general .shop--general__block .shop .shop3 h1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #A1A1A1;
+}
+
+#product {
+  background: #EEEEEE;
+}
+#product .product--general .product--general__block .product .product1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  margin: 57px 0;
+}
+#product .product--general .product--general__block .product .product1 h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #011F3A;
+}
+#product .product--general .product--general__block .product .product1 button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.4s;
+}
+#product .product--general .product--general__block .product .product1 button:hover {
+  transform: scale(1.1);
+}
+#product .product--general .product--general__block .custom-content {
+  display: flex;
+  margin-left: 100px;
+}
+#product .product--general .product--general__block .custom-content .custom .custom1 {
+  width: 380px;
+  height: 432px;
+  background: #FFFFFF;
+  margin: 4px 2px;
+  transition: 0.4s;
+}
+#product .product--general .product--general__block .custom-content .custom .custom1 h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #011F3A;
+}
+#product .product--general .product--general__block .custom-content .custom .custom1 p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #777777;
+}
+#product .product--general .product--general__block .custom-content .custom .custom1 .custom-img img {
+  width: 398px;
+  height: 302px;
+}
+#product .product--general .product--general__block .need {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 60px 450px;
+}
+#product .product--general .product--general__block .need p {
+  margin: 0 10px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#product .product--general .product--general__block .need button {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  background: #FFFFFF;
+  border-radius: 44px;
+  width: 158px;
+  height: 44px;
+  border: none;
+  transition: 0.4s;
+}
+#product .product--general .product--general__block .need button:hover {
+  transform: scale(1.1);
+}
+#product .product--general .product--general__block .order {
+  background: #72BDA3;
+}
+#product .product--general .product--general__block .order h1 {
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: #011F3A;
+  padding-top: 100px;
+}
+#product .product--general .product--general__block .order .order-block {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+#product .product--general .product--general__block .order .order-block .design .design-img {
+  color: #011F3A;
+}
+#product .product--general .product--general__block .order .order-block .design h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #011F3A;
+}
+#product .product--general .product--general__block .order .order-block .design p {
+  width: 200px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3D5675;
+  margin-left: 50px;
+  text-align: center;
+}
+#product .product--general .product--general__block .order .order-btn {
+  margin: 30px 0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#product .product--general .product--general__block .order .order-btn button {
+  padding: 15px 30px;
+  background: #3D5675;
+  border-radius: 44px;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.4s;
+  transition: 0.4s;
+  border: none;
+}
+#product .product--general .product--general__block .order .order-btn button:hover {
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid #3D5675;
+}
+
+#arka {
+  background: #EEEEEE;
+}
+#arka .arka--general {
+  padding-top: 158px;
+}
+#arka .arka--general h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #011F3A;
+  padding-bottom: 82px;
+  text-align: center;
+}
+#arka .arka--general .arka--general__block {
+  display: flex;
+  justify-content: space-evenly;
+}
+#arka .arka--general .arka--general__block .arka img {
+  padding-bottom: 55px;
+}
+#arka .arka--general .arka--general__block .arka h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #011F3A;
+  padding-bottom: 13px;
+}
+#arka .arka--general .arka--general__block .arka p {
+  width: 250px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #A1A1A1;
+}
+
+#find {
+  background: #EEEEEE;
+  padding-top: 80px;
+}
+#find .find--general {
+  background: #FFCA3A;
+  box-shadow: 0 14px 44px rgba(143, 143, 143, 0.25);
+}
+#find .find--general .find--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -100px;
+}
+#find .find--general .find--general__block .find img {
+  padding-top: 110px;
+  margin-left: 195px;
+  padding-bottom: 24px;
+}
+#find .find--general .find--general__block .find h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #011F3A;
+  padding-bottom: 14px;
+  margin-left: 133px;
+}
+#find .find--general .find--general__block .find p {
+  width: 300px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3D5675;
+  padding-bottom: 10px;
+  margin-left: 135px;
+  text-align: center;
+}
+#find .find--general .find--general__block .find .find--btn {
+  padding-bottom: 50px;
+}
+#find .find--general .find--general__block .find .find--btn button {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  background: #FFFFFF;
+  border-radius: 44px;
+  border: none;
+  transition: 0.4s;
+  width: 204px;
+  height: 44px;
+  margin-left: 177px;
+}
+#find .find--general .find--general__block .find .find--btn button:hover {
+  transform: scale(1.1);
+  background: #011F3A;
+  color: #FFFFFF;
+}
+#find .find--general .find--general__block .line {
+  width: 2px;
+  height: 410px;
+  background: rgba(161, 161, 161, 0.4);
+  margin-left: 20px;
+}
+
+#love {
+  background: #EEEEEE;
+}
+#love .love--general .love--general__block .love {
+  padding-top: 108px;
+}
+#love .love--general .love--general__block .love h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #011F3A;
+  padding-bottom: 59px;
+}
+#love .love--general .love--general__block .love .love--title {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+#love .love--general .love--general__block .love .love--title .love-block .star {
+  display: flex;
+}
+#love .love--general .love--general__block .love .love--title .love-block .star a {
+  color: #FFCA3A;
+  width: 24px;
+  height: 24px;
+}
+#love .love--general .love--general__block .love .team-general {
+  background: #FFFFFF;
+  box-shadow: 0 14px 44px rgba(143, 143, 143, 0.25);
+  border-radius: 0;
+  height: 1306px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 55px 100px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text h1 {
+  width: 400px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #011F3A;
+  text-align: start;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 {
+  display: flex;
+  margin: 10px 10px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 button {
+  width: 160px;
+  height: 44px;
+  background: #F2F2F2;
+  border-radius: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  border: none;
+  transition: 0.4s;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 button:hover {
+  transform: scale(1.1);
+  color: darkblue;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 .team-text3 {
+  margin: 0 20px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 .team-text3 h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #011F3A;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team .team-text2 .team-text3 p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team-img {
+  display: flex;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block .team-img img {
+  width: 294px;
+  height: 294px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 55px 100px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text2 h1 {
+  width: 400px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #011F3A;
+  text-align: start;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 {
+  display: flex;
+  margin: 10px 10px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 button {
+  width: 160px;
+  height: 44px;
+  background: #F2F2F2;
+  border-radius: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  border: none;
+  transition: 0.4s;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 button:hover {
+  transform: scale(1.1);
+  color: darkblue;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 .team-text32 {
+  margin: 0 20px;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 .team-text32 h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #011F3A;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team2 .team-text22 .team-text32 p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #A1A1A1;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 {
+  display: flex;
+}
+#love .love--general .love--general__block .love .team-general .team--general__block2 .team-img2 img {
+  width: 294px;
+  height: 294px;
+}
+#love .love--general .love-end {
+  padding-top: 120px;
+}
+#love .love--general .love-end h1 {
+  padding-bottom: 57px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 36px;
+  text-align: center;
+  color: #011F3A;
+}
+#love .love--general .love-end .love-btn {
+  text-align: center;
+  padding-bottom: 137px;
+}
+#love .love--general .love-end .love-btn .btn-1 {
+  margin: 0 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 220px;
+  height: 44px;
+  background: #3D5675;
+  border-radius: 44px;
+  border: none;
+  transition: 0.4s;
+}
+#love .love--general .love-end .love-btn .btn-1:hover {
+  transform: scale(1.1);
+}
+#love .love--general .love-end .love-btn .btn2 {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  width: 220px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 44px;
+  border: none;
+  transition: 0.4s;
+}
+#love .love--general .love-end .love-btn .btn2:hover {
+  transform: scale(1.1);
+}
+
+#footer {
+  background: #F2F3F4;
+}
+#footer .footer--genral .footer--general__block .footer {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+#footer .footer--genral .footer--general__block .footer .footer-img img {
+  width: 85px;
+  height: 24px;
+}
+#footer .footer--genral .footer--general__block .footer .footer1 {
+  margin: 5px 50px;
+}
+#footer .footer--genral .footer--general__block .footer .footer1 a {
+  margin: 17px 17px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D5675;
+}
+#footer .footer--genral .footer--general__block .footer .footer1 a p:hover {
+  color: red;
+}
+#footer .footer--genral .footer--general__block .footer .footer2 {
+  margin: 5px 50px;
+}
+#footer .footer--genral .footer--general__block .footer .footer2 a {
+  margin: 0 17px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D5675;
+}
+#footer .footer--genral .footer--general__block .footer .footer2 a p:hover {
+  color: red;
+}
+#footer .footer--genral .footer--general__block .footer .footer3 {
+  margin: 5px 50px;
+}
+#footer .footer--genral .footer--general__block .footer .footer3 a {
+  margin: 0 17px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D5675;
+}
+#footer .footer--genral .footer--general__block .footer .footer3 a p:hover {
+  color: red;
+}
+#footer .footer--genral .footer--general__block .footer .footer3 .footer-icon a {
+  width: 100px;
+  height: 40px;
+  margin: 0 10px;
+}
+#footer .footer--genral .footer--general__block .footer .footer4 {
+  margin: 5px 52px;
+  flex-direction: column;
+}
+#footer .footer--genral .footer--general__block .footer .footer4 h2 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D5675;
+  padding-bottom: 13px;
+}
+#footer .footer--genral .footer--general__block .footer .footer4 input {
+  color: #011F3A;
+  background: #FFFFFF;
+  border-radius: 34px;
+  width: 280px;
+  height: 36px;
+}
+#footer .footer--genral .footer--general__block .footer .footer4 .footer4-btn {
+  flex-direction: column;
+  padding-top: 15px;
+}
+#footer .footer--genral .footer--general__block .footer .footer4 .footer4-btn button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 187px;
+  height: 44px;
+  background: #3D5675;
+  border-radius: 44px;
+  border: none;
+  transition: 0.4s;
+}
+#footer .footer--genral .footer--general__block .footer .footer4 .footer4-btn button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */

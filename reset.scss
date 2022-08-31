@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+ h1{
+   font-family: 'Roboto',sans-serif;
+   font-style: normal;
+ }
+p{
+   font-family: 'Roboto',sans-serif;
+   font-style: normal;
+ }
+a{
+   font-family: 'Roboto',sans-serif;
+   font-style: normal;
+ }
+
+ @mixin ani {
+   padding: 15px 30px;
+   background: #3D5675;
+   border-radius: 44px;
+   font-weight: 700;
+   font-size: 17px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   border: none;
+   transition: .4s;
+ }
+@mixin str{
+  padding: 10px 30px;
+  background: #F2F2F2;
+  border-radius: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3D5675;
+  border: none;
+  transition: .4s;
+
+}
+@keyframes ani {
+  0%{
+    transform: translateY(-1400px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes ani2 {
+  0%{
+    transform: translateX(-1400px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes ani3 {
+  0%{
+    transform: translateX(1400px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes shop {
+  0%{
+    transform: translateY(1400px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
